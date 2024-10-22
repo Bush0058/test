@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        body {
+            background-color: violet ;
+        }
+        #right {
+            position: absolute;
+            width: 190px;
+            top: 0;
+            right: 0;
+        }
+        #righie {
+            margin-top: 20px; /* Spacing above the smaller text */
+            font-size: 18px;
+        }
+
+        #left{
+            width: 190px;
+            float: left;
+            border: 1px solid red;
+            padding: 4px;{
+        }
+        }
+    </style>
+
+</head>
+<body>
+
+<h3>This is a Paragraph</h3>
+<h3 style="color: red;">
+    This is <span style="background-color: yellow;">another</span> paragraph.
+</h3>
+
+<div>
+    <h1>This is large !</h1>
+    <h3 id="righie"> Ayyyy første hjemmeside </h3> <!-- This will be on the same line, slightly lower -->
+</div>
+
+<div id="right">
+    <h1>SpringExercises</h1>
+</div>
+
+
+<!-- Correctly formatted <img> tag -->
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMk5lXjt8WO3iCoNXzDDYEOv4c_v1DnR0isw&s" alt="Example Google Image" width="300" height="200">
+     <div id="left">
+        <form action="/AnimalData" method="post">
+            <input type="text" name ="species" placeholder="Animal species">
+            <input type="text" name="name" placeholder="Animal name">
+            <input type="submit" value="Send data">
+        </form>
+    </div>
+</body>
+</html>
